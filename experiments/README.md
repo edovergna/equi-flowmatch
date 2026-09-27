@@ -41,6 +41,36 @@ The weighted notebook constructs weighted samples but trains from the original
 array. `train_weighted_ot.py` uses the weighted array, matching the experiment's
 stated intent.
 
+## Evaluation
+
+Evaluate the published equivariant DW4 checkpoint against the disjoint MCMC
+holdout split with 50,000 samples from each distribution:
+
+```console
+sbatch --time=02:00:00 --job-name=dw4-evaluation \
+  experiments/snellius_gpu.sbatch experiments/dw4/evaluate.py
+```
+
+The evaluator writes to `runs/dw4/evaluation_published/` by default. Its output
+includes energy and pair-distance PDFs/ECDFs, an invariant configuration-space
+comparison, canonicalized configuration examples, per-distance-rank errors,
+the generated and holdout arrays, and `metrics.json`. Metrics include raw and
+importance-reweighted Wasserstein-1 and Jensen-Shannon distances, KS statistics,
+energy and distance moments/quantiles, effective sample size, invariant sliced
+Wasserstein distance, and held-out negative log likelihood. Use `--help` to
+change the checkpoint, sample counts, integration tolerances, or output path.
+
+Run the matching LJ13 evaluation with:
+
+```console
+sbatch --time=02:00:00 --job-name=lj13-evaluation \
+  experiments/snellius_gpu.sbatch experiments/lj13/evaluate.py \
+  --batch-size 1000
+```
+
+The finalized DW4 and LJ13 metric tables and the shared comparison protocol are
+recorded in [EVALUATION_RESULTS.md](EVALUATION_RESULTS.md).
+
 ## Snellius
 
 Create the pinned CUDA conda environment once through Slurm:

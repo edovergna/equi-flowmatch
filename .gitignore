@@ -1,0 +1,14 @@
+.conda/
+.deps/
+.original-notebooks/
+.runtime/
+.snellius-env/
+runs/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+data/*.npy
+data/*.part
+data/*.tgz
+data/AImplicitUnconstrained/
+models/*flow_matching

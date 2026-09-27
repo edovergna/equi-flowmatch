@@ -1,0 +1,32 @@
+name: equi-flowmatch
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - setuptools<81
+  - wheel
+  - numpy=1.26
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - einops
+  - tqdm
+  - mdtraj=1.10.3
+  - openmm
+  - openmmtools
+  - xtb-python
+  - jax=0.4.35
+  - jaxlib=0.4.35
+  - pytorch=2.5.1
+  - torchvision=0.20.1
+  - pytorch-cuda=12.1
+  - pip:
+      - POT==0.9.7.post1
+      - six
+      - torchdiffeq==0.2.5
+      - torchdyn==1.0.6
+      - git+https://github.com/noegroup/bgflow.git@fbba56fac3eb88f6825d2bd4f745ee75ae9715e1
+      - git+https://github.com/noegroup/bgmol.git@2be2ede75ce137258fc83c01b28648a8c29161de

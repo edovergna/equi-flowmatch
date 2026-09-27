@@ -1,0 +1,14 @@
+matplotlib
+einops
+numpy
+POT 
+scikit-learn
+scipy
+torch
+torchdiffeq
+torchvision
+tqdm
+xtb-python
+openmm
+mdtraj
+torchdyn

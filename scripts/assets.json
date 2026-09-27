@@ -1,0 +1,104 @@
+[
+  {
+    "path": "data/AD2_relaxed.npy",
+    "size": 52800128,
+    "url": "https://osf.io/download/nf2wm/?view_only=28deeba0845546fb96d1b2f355db0da5",
+    "sha256": "4f42ccee10be69dc9d285c59b14388dc533b73e1077c38bf99f5002d419b733a"
+  },
+  {
+    "path": "data/AD2_relaxed_holdout.npy",
+    "size": 52800128,
+    "url": "https://osf.io/download/zp2bu/?view_only=28deeba0845546fb96d1b2f355db0da5",
+    "sha256": "0ac1379b80c9f9ec670172102ed35a82dba1dafadc2b18f13d007e555f920675"
+  },
+  {
+    "path": "data/all_data_LJ13-1000.npy",
+    "size": 1560000128,
+    "url": "https://osf.io/download/bd9fg/?view_only=28deeba0845546fb96d1b2f355db0da5",
+    "sha256": "1566627762bf925a70e25d1b36da19d0fac3e2b5b86599f06e0c1c013bde6db7"
+  },
+  {
+    "path": "data/all_data_LJ55-1000-part1.npy",
+    "size": 3300000128,
+    "url": "https://osf.io/download/w9fu6/?view_only=28deeba0845546fb96d1b2f355db0da5",
+    "sha256": "dfb261fa0fde0a83083b7bb96c94538e828f36ea1f64d2021288b7c34502c94b"
+  },
+  {
+    "path": "data/all_data_LJ55-1000-part2.npy",
+    "size": 3300000128,
+    "url": "https://osf.io/download/9rv6z/?view_only=28deeba0845546fb96d1b2f355db0da5",
+    "sha256": "a8e3262785e0826615396ffbe5834e1d41a594d9efeac2e7e6e433694dc980bc"
+  },
+  {
+    "path": "data/AD2_relaxed_weighted.npy",
+    "size": 26400128,
+    "url": "https://osf.io/download/zyv4b/?view_only=28deeba0845546fb96d1b2f355db0da5",
+    "sha256": "f567ca9f6733b4d49cf368d029faabcfd7dd62adbb1133388c0cdc8c60ce9788"
+  },
+  {
+    "path": "data/dw4-dataidx.npy",
+    "size": 57173470,
+    "url": "https://osf.io/download/mus7z/?view_only=28deeba0845546fb96d1b2f355db0da5",
+    "sha256": "60065e6c08c40e3e2d11b9fb15cbe298e457a6954af2d932d984d8ee19181b9d"
+  },
+  {
+    "path": "models/alanine_weighted_eq_OT_flow_matching",
+    "size": 1819133,
+    "url": "https://osf.io/download/3j2sw/?view_only=28deeba0845546fb96d1b2f355db0da5",
+    "sha256": "1f1b423225663183ef2efb32c10b3bc9c681ba9e81b14a22082f7ae679249fc5"
+  },
+  {
+    "path": "models/DW4_OT_flow_matching",
+    "size": 124321,
+    "url": "https://osf.io/download/653cf64c2827451597b86b17/?view_only=28deeba0845546fb96d1b2f355db0da5",
+    "sha256": "a342106cf40ccba85f166c02a9657b52750eff1d7b526a06ae88eeee671951ae"
+  },
+  {
+    "path": "models/LJ55_eq_OT_flow_matching",
+    "size": 37784661,
+    "url": "https://osf.io/download/g3eum/?view_only=28deeba0845546fb96d1b2f355db0da5",
+    "sha256": "4baa3724d58cfcb9bdce1f8f7803ca6c0eab0dc8630087d118054fec10c77ad4"
+  },
+  {
+    "path": "models/alanine_weighted_OT_flow_matching",
+    "size": 1813153,
+    "url": "https://osf.io/download/4vukb/?view_only=28deeba0845546fb96d1b2f355db0da5",
+    "sha256": "eeaf3c49764a11268a86d8c2b49ed3015c006d65e82b491b7a777ff2fd4526a7"
+  },
+  {
+    "path": "models/LJ13_eq_OT_flow_matching",
+    "size": 124321,
+    "url": "https://osf.io/download/7qyec/?view_only=28deeba0845546fb96d1b2f355db0da5",
+    "sha256": "27ec776d8039f13d50a4a7ffc23c8d05e7d571d22958856b9f7117bac39f32e5"
+  },
+  {
+    "path": "models/LJ55_OT_flow_matching",
+    "size": 37787141,
+    "url": "https://osf.io/download/g7ce4/?view_only=28deeba0845546fb96d1b2f355db0da5",
+    "sha256": "e7aa4385e26cf444c520a74962e5623f2256fa3354cac41450dc485be1d452d9"
+  },
+  {
+    "path": "models/alanine_OT_flow_matching",
+    "size": 645907,
+    "url": "https://osf.io/download/rq5ej/?view_only=28deeba0845546fb96d1b2f355db0da5",
+    "sha256": "77cd8b1b934ff58482f8d23be2f6d2521da06c222d3c7d4fb4eeb677352a3b98"
+  },
+  {
+    "path": "models/LJ13_flow_matching",
+    "size": 124321,
+    "url": "https://osf.io/download/yrbqw/?view_only=28deeba0845546fb96d1b2f355db0da5",
+    "sha256": "8ab63c2ae00355e50a1b9e6f2404a55d5718580dbd995a0209b3400e02062422"
+  },
+  {
+    "path": "models/alanine_eq_OT_flow_matching",
+    "size": 1759609,
+    "url": "https://osf.io/download/q3789/?view_only=28deeba0845546fb96d1b2f355db0da5",
+    "sha256": "af7b988c2c28b7a1b448829ac75c72a72d4544a414dfc514ef71f5ee87981c07"
+  },
+  {
+    "path": "models/DW4_eq_OT_flow_matching",
+    "size": 124321,
+    "url": "https://osf.io/download/rfhn6/?view_only=28deeba0845546fb96d1b2f355db0da5",
+    "sha256": "f1c5ebe21e4d465b4015fd07a8d6032656dde805e8f9ab49fb61f764a7f12369"
+  }
+]

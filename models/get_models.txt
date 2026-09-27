@@ -1,0 +1,1 @@
+Download the model checkpoints from https://osf.io/srqg7/?view_only=28deeba0845546fb96d1b2f355db0da5

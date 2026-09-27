@@ -16,7 +16,7 @@ cd "$SLURM_SUBMIT_DIR"
 python_executable="${EQUI_PYTHON:-$SLURM_SUBMIT_DIR/.snellius-env/bin/python}"
 if [[ ! -x "$python_executable" ]]; then
     echo "Missing Python executable: $python_executable" >&2
-    echo "Run scripts/setup_snellius.sh or set EQUI_PYTHON before submitting." >&2
+    echo "Submit scripts/setup_snellius.sbatch or set EQUI_PYTHON before submitting." >&2
     exit 1
 fi
 

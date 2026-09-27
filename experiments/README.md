@@ -43,18 +43,23 @@ stated intent.
 
 ## Snellius
 
-Create the pinned CUDA conda environment once on a login node:
+Create the pinned CUDA conda environment once through Slurm:
 
 ```bash
-bash scripts/setup_snellius.sh
+sbatch scripts/setup_snellius.sbatch
 ```
 
 If `conda` is provided through a Snellius module in your account, load that
-module first. The setup also pins the bgflow, bgmol, and ANODE revisions used by
-this repository. Verify CUDA from a GPU allocation with:
+module before submitting so that it is available in the batch environment. The
+setup job requests four CPU cores, 16 GiB of memory, and two hours; it writes to
+Slurm's standard `slurm-<job-id>.out` log. Wait for the setup job to finish
+successfully before submitting training. The setup also pins the bgflow, bgmol,
+and ANODE revisions used by this repository. Direct shell execution is rejected
+to keep the installation off the login node. Verify CUDA from a GPU allocation
+with:
 
 ```bash
-.snellius-env/bin/python -c \
+sbatch experiments/snellius_gpu.sbatch -c \
   'import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name())'
 ```
 

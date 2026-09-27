@@ -12,3 +12,5 @@ data/*.part
 data/*.tgz
 data/AImplicitUnconstrained/
 models/*flow_matching
+
+slurm-*.out
